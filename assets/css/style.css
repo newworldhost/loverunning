@@ -110,7 +110,7 @@ footer {
     }
     /* main content */
     /* push main content down to fit larger header */
-    margin-top: 99px;
+    margin-top: 79px;
 }
 /* large devices ( laptops and desktop) 992px and up */
 @media screen and (min-wdith: 992px) {
