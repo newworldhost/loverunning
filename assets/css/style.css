@@ -73,7 +73,7 @@ nav{
 }
 /* Main Content */
 main {
-    background-color: lightblue;s
+    background-color: lightblue;
     /* make main element take up any surplus space to push footer down */
     flex:1 0 auto;
     margin-top:47px;
