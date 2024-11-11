@@ -96,9 +96,19 @@ main {
     height:600px;
     width:100%;
     background: url('../images/hero.webp') no-repeat center center/cover;
+    position: relative;
 }
 #cover-text {
     background-color: rgba(241, 109, 107, 0.7);
+    position: absolute;
+    bottom: 30px;
+    width:80%;
+    min-height: 200px;
+    padding-top:40px;
+    padding-left:10px;
+}
+#cover-text > h2, #cover-text > h3 {
+    color:#ffffff;
 }
 /* Footer */
 #social-networks {
@@ -143,6 +153,11 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
 
+    }
+    /* hero */
+    #cover-text {
+        width:150px;
+        right:50px;
     }
 
     /* main content */
