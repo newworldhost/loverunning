@@ -195,63 +195,12 @@ hr {
     color:#3a3a3a;
 
 }
-/* media query for large or landscape phones 9 (576px and up) */
+/* media query for large or landscape phones (576px and up) */
 @media screen and (min-width:576px){
     #photos {
         column-count: 2;
         column-gap: 0;
     }
-}
-/* media query tablets (768px and up) */
-@media screen and (min-width: 768px) {
-
-    /* header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 200%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-
-    }
-    /* hero */
-    #cover-text {
-        width:150px;
-        right:50px;
-    }
-    /* reasons section */
-    #benefits-physical, #benefits-mental {
-        display:flex;
-        flex-direction:column;
-        width:100%;
-    }
-#benefits-physical > div, #benefits-mental > div {
-    width:75%;
-}
-#benefits-mental > div {
-    text-align:end;
-    align-self:flex-end;
-}
-#photos {
-    column-count: 3;
 }
     /* main content */
     /* push main content down to fit larger header */
@@ -315,6 +264,58 @@ main {
     background-color: #454b1b;
     color:#fafafa;
 }
+/* media query tablets (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+
+    }
+    /* hero */
+    #cover-text {
+        width:150px;
+        right:50px;
+    }
+    /* reasons section */
+    #benefits-physical, #benefits-mental {
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+#benefits-physical > div, #benefits-mental > div {
+    width:75%;
+}
+#benefits-mental > div {
+    text-align:end;
+    align-self:flex-end;
+}
+#photos {
+    column-count: 3;
+}
+
 
 /* large devices ( laptops and desktop) 992px and up */
 @media screen and (min-width: 992px) {
