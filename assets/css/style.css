@@ -204,7 +204,7 @@ hr {
 }
     /* main content */
     /* push main content down to fit larger header */
-    margin-top: 79px;
+    
 main {
     /* make main element larger to push footer down */
     flex:1 0 auto;
